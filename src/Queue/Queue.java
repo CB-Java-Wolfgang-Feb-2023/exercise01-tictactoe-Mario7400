@@ -59,7 +59,6 @@ public class Queue {
         return rear == 0;
     }
 
-
     public void printQueue(){
         if (!isEmpty()){
             for (int i = front; i < rear; i++) {
